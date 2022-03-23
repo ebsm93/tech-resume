@@ -10,11 +10,15 @@ body {
     color: rgb(0, 0, 0);
     display: grid;
     /* justify-items: center; */
-    animation: bg-transition 1.5s ease-in forwards
+    animation: main-transition 1.5s ease-in forwards
 }
 
-@keyframes bg-transition {
+a {
+    color: aqua;
+    animation: a-transition 2.8s ease-in forwards
+}
 
+@keyframes main-transition {
     from {
         color: rgb(0, 0, 0, 0)
     }
@@ -25,11 +29,21 @@ body {
 
     to {
         color: antiquewhite;
-    }
-    
+    }   
+}
 
-    
-    
+@keyframes a-transition {
+    from {
+        color: rgb(0, 255, 255, 0)
+    }
+
+    45% {
+        color: rgb(0, 255, 255, 0)
+    }
+
+    to {
+        color: rgb(0, 255, 255)
+    }   
 }
 
 
