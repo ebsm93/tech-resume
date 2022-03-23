@@ -28,6 +28,7 @@ body {
 }
 
 .page-wrap {
+    font-size: 18px;
     display: grid;
     gap: 3vh;
     width: 100%;
@@ -48,6 +49,7 @@ a {
     color: aqua;
     font-size: 1.2em;
     animation: a-transition 2.8s ease-in forwards;
+    width: fit-content;
 
 }
 
@@ -64,10 +66,6 @@ a {
     to {
         color: rgb(0, 255, 255)
     }   
-}
-
-.svg-wrap {
-    /* justify-self: center; */
 }
 
 
@@ -91,4 +89,9 @@ a {
 
 .primary-work-type {
     margin: 1vw;
+}
+
+.starter-info {
+    display: grid;
+    gap: 1vh
 }
