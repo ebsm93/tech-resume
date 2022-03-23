@@ -31,13 +31,13 @@ body {
     font-size: 18px;
     display: grid;
     gap: 3vh;
-    width: 100%;
+    width: 90%;
     /* max-width: 90%; */
 }
 
 @media  (min-width: 500px){
     .page-wrap {
-        max-width: 80%;
+        max-width: 75%;
     }
     
     body {
