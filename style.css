@@ -6,8 +6,8 @@ html, body {
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-    color: antiquewhite;
+    background-color: black;
+    color: rgb(0, 0, 0);
     display: grid;
     /* justify-items: center; */
     animation: bg-transition 1.5s ease-in forwards
@@ -16,21 +16,14 @@ body {
 @keyframes bg-transition {
 
     from {
-        background-color: white;
         color: rgb(0, 0, 0, 0)
     }
 
-    15% {
-        background-color: white;
-    }
-
     45% {
-        background-color: black;
         color: rgb(0, 0, 0, 0)
     }
 
     to {
-        background-color: black;
         color: antiquewhite;
     }
     
