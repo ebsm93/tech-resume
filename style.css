@@ -2,20 +2,16 @@
 
 html, body {
     height: 100%;
-    font-size: 16px;
 }
 
 body {
+    font-size: 16px;
     background-color: black;
     color: rgb(0, 0, 0);
     display: grid;
     /* justify-items: center; */
-    animation: main-transition 1.5s ease-in forwards
-}
-
-a {
-    color: aqua;
-    animation: a-transition 2.8s ease-in forwards
+    animation: main-transition 1.5s ease-in forwards;
+    justify-items: center;
 }
 
 @keyframes main-transition {
@@ -31,6 +27,30 @@ a {
         color: antiquewhite;
     }   
 }
+
+.content-wrap {
+    display: grid;
+    width: 100%;
+    /* max-width: 90%; */
+}
+
+@media  (min-width: 500px){
+    
+    .content-wrap {
+        max-width: 80%;
+    }
+    body {
+        font-size: 20px;
+    }
+}
+
+a {
+    color: aqua;
+    font-size: 1.2em;
+    animation: a-transition 2.8s ease-in forwards;
+
+}
+
 
 @keyframes a-transition {
     from {
@@ -50,6 +70,12 @@ a {
 .title {
     justify-self: center;
     align-self: center;
-    font-size: 1.8em;
+    font-size: 2.3em;
     margin-top: 2vh;
+}
+
+.name {
+    font-size: 1.5em;
+    justify-self: center;
+    align-self: stretch;
 }
