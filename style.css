@@ -66,6 +66,10 @@ a {
     }   
 }
 
+.svg-wrap {
+    /* justify-self: center; */
+}
+
 
 .title {
     justify-self: center;
