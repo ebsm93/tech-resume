@@ -82,8 +82,15 @@ h3 {
 
 .name {
     font-size: 1.5em;
-    justify-self: center;
-    align-self: stretch;
+    /* justify-self: center;
+    align-self: center; */
+    text-align: center;
+    
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    background-color: black;
 }
 
 .contact {
