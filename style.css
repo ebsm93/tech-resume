@@ -76,6 +76,10 @@ a {
     margin-top: 2vh;
 }
 
+h3 {
+    text-decoration: underline;
+}
+
 .name {
     font-size: 1.5em;
     justify-self: center;
@@ -121,3 +125,20 @@ a {
     }
 }
 
+svg {
+    animation: svg-fade-in 3s forwards ease-in;
+}
+
+@keyframes svg-fade-in {
+    from {
+        opacity: 0%;
+    }
+
+    75% {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
