@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    font-size: 16px;
+    /* font-size: 16px; */
     background-color: black;
     color: rgb(0, 0, 0);
     display: grid;
@@ -28,7 +28,7 @@ body {
 }
 
 .page-wrap {
-    font-size: 18px;
+    font-size: 20px;
     display: grid;
     gap: 3vh;
     width: 90%;
@@ -92,6 +92,31 @@ a {
 }
 
 .starter-info {
+    /* justify-self: center; */
     display: grid;
-    gap: 1vh
+    gap: 1vh;
+    padding-left: 6vw;
+    font-size: 1.2em;
 }
+
+.alias {
+    animation: slide-from-left 1.2s forwards ease-in;
+}
+
+.age {
+    animation: slide-from-left 1.4s forwards ease-in;
+}
+
+.gender {
+    animation: slide-from-left 1.6s forwards ease-in;
+}
+
+@keyframes slide-from-left {
+    from {
+        transform: translateX(-100%);      
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
