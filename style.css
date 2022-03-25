@@ -103,6 +103,11 @@ h3 {
     font-size: 1.2em;
 }
 
+.portfolio {
+    font-size: 1.3em;
+    padding: 3vh;
+}
+
 .starter-info {
     /* justify-self: center; */
     display: grid;
